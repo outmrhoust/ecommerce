@@ -86,7 +86,7 @@ const SignUpForm = () => {
           name="confirmPassword"
           value={confirmPassword}
         />
-        <Button type="submit">SIGN UP</Button>
+        <Button children="SIGN UP" type="submit"/>
       </form>
     </div>
   );
