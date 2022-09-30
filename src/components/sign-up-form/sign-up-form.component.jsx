@@ -22,7 +22,6 @@ const SignUpForm = () => {
   const resetFormFields = () => {
     setFormFields(defaultFormFields);
   };
-  console.log(formFields);
   const handleSubmit = async (event) => {
     event.preventDefault();
     if (password !== confirmPassword) {
@@ -34,6 +33,7 @@ const SignUpForm = () => {
         email,
         password
       );
+
       await createUserDocumentFromAuth(user, { displayName });
       resetFormFields();
     } catch (error) {
@@ -86,7 +86,7 @@ const SignUpForm = () => {
           name="confirmPassword"
           value={confirmPassword}
         />
-        <Button children="SIGN UP" type="submit"/>
+        <Button children="SIGN UP" type="submit" />
       </form>
     </div>
   );

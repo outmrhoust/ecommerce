@@ -1,17 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="50px" height="39px" viewBox="0 0 50 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
-    <title>Group</title>
-    <desc>Created with Sketch.</desc>
-    <g id="WiP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard" transform="translate(-90.000000, -38.000000)">
-            <g id="Group" transform="translate(90.000000, 38.000000)">
-                <polygon id="Rectangle" fill="#808282" points="3 14 25 26.5 47 14 40.855176 39 9.08421785 39"></polygon>
-                <polygon id="Triangle" fill-opacity="0.262838724" fill="#101A1A" points="25 8 40 39 10 39"></polygon>
-                <circle id="Oval" fill="#5E6363" cx="2" cy="9" r="2"></circle>
-                <circle id="Oval" fill="#5E6363" cx="25" cy="2" r="2"></circle>
-                <circle id="Oval" fill="#5E6363" cx="48" cy="9" r="2"></circle>
-            </g>
-        </g>
-    </g>
+<svg width="53" height="63" viewBox="0 0 53 63" fill="none" xmlns="http://www.w3.org/2000/svg">
+	<g filter="url(#filter0_d_0_1)">
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M28.3672 35.9315C38.4972 35.9315 46.7092 27.888 46.7092 17.9658C46.7092 8.04355 38.4972 0 28.3672 0C18.2371 0 10.0251 8.04355 10.0251 17.9658C10.0251 27.888 18.2371 35.9315 28.3672 35.9315ZM8.21366 23.7668C16.4544 50.5397 46.9309 40.1774 47.6978 23.7668C48.4647 7.35625 51.4647 64.0806 44.5108 51.6779C37.5569 39.2752 22.2383 43.6597 15.3852 53.9236C8.53215 64.1875 -0.0271211 -3.00614 8.21366 23.7668Z" fill="#182DE8" fill-opacity="0.4" shape-rendering="crispEdges" />
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M28.3672 35.9315C38.4972 35.9315 46.7092 27.888 46.7092 17.9658C46.7092 8.04355 38.4972 0 28.3672 0C18.2371 0 10.0251 8.04355 10.0251 17.9658C10.0251 27.888 18.2371 35.9315 28.3672 35.9315ZM8.21366 23.7668C16.4544 50.5397 46.9309 40.1774 47.6978 23.7668C48.4647 7.35625 51.4647 64.0806 44.5108 51.6779C37.5569 39.2752 22.2383 43.6597 15.3852 53.9236C8.53215 64.1875 -0.0271211 -3.00614 8.21366 23.7668Z" fill="url(#paint0_radial_0_1)" fill-opacity="0.2" shape-rendering="crispEdges" />
+		<path fill-rule="evenodd" clip-rule="evenodd" d="M28.3672 35.9315C38.4972 35.9315 46.7092 27.888 46.7092 17.9658C46.7092 8.04355 38.4972 0 28.3672 0C18.2371 0 10.0251 8.04355 10.0251 17.9658C10.0251 27.888 18.2371 35.9315 28.3672 35.9315ZM8.21366 23.7668C16.4544 50.5397 46.9309 40.1774 47.6978 23.7668C48.4647 7.35625 51.4647 64.0806 44.5108 51.6779C37.5569 39.2752 22.2383 43.6597 15.3852 53.9236C8.53215 64.1875 -0.0271211 -3.00614 8.21366 23.7668Z" fill="url(#paint1_radial_0_1)" fill-opacity="0.2" shape-rendering="crispEdges" />
+	</g>
+	<path d="M16.167 5.77953C30.4423 7.2582 50.479 51.8291 16.167 27.2307" stroke="url(#paint2_radial_0_1)" />
+	<path d="M26.103 3.42919C40.3784 4.90786 60.415 49.4788 26.103 24.8803" stroke="url(#paint3_radial_0_1)" />
+	<path d="M19.5827 3.42919C33.8581 4.90786 53.8948 49.4788 19.5827 24.8803" stroke="url(#paint4_radial_0_1)" />
+	<defs>
+		<filter id="filter0_d_0_1" x="0.831299" y="0" width="52.1687" height="63" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix" />
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+			<feOffset dy="4" />
+			<feGaussianBlur stdDeviation="2" />
+			<feComposite in2="hardAlpha" operator="out" />
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_1" />
+			<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_1" result="shape" />
+		</filter>
+		<radialGradient id="paint0_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(86.6263 23.4644) rotate(90) scale(31.6146 41.6994)">
+			<stop />
+			<stop offset="1" stop-opacity="0" />
+		</radialGradient>
+		<radialGradient id="paint1_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(86.6263 23.4644) rotate(90) scale(31.6146 41.6994)">
+			<stop />
+			<stop offset="1" stop-opacity="0" />
+		</radialGradient>
+		<radialGradient id="paint2_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(23.3664 20.449) rotate(162.642) scale(8.85652 16.1492)">
+			<stop stop-color="#10FD52" />
+			<stop offset="1" stop-opacity="0" />
+		</radialGradient>
+		<radialGradient id="paint3_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(33.3024 18.0986) rotate(162.642) scale(8.85652 16.1492)">
+			<stop stop-color="#10FD52" />
+			<stop offset="1" stop-opacity="0" />
+		</radialGradient>
+		<radialGradient id="paint4_radial_0_1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(26.7821 18.0986) rotate(162.642) scale(8.85652 16.1492)">
+			<stop stop-color="#10FD52" />
+			<stop offset="1" stop-opacity="0" />
+		</radialGradient>
+	</defs>
 </svg>
