@@ -1,7 +1,8 @@
-import "./checkout.styles.scss";
 import { Fragment, useContext } from "react";
 import { CartContext } from "../../contexts/cart.context";
 import CheckoutItem from "../../components/checkout-item/checkout-item.component";
+
+import { CheckoutContainer, CheckoutHeader,HeaderBlock,Total } from "./checkout.styles";
 const Checkout = () => {
   const { cartItems, totalCheckout } = useContext(CartContext);
   const header = [
@@ -13,27 +14,27 @@ const Checkout = () => {
   ];
 
   return (
-    <div className="checkout-container">
-      <div className="checkout-header">
+    <CheckoutContainer>
+      <CheckoutHeader>
         {header.map((ele) => (
           
-            <span className="header-block">{ele.name}</span>
+            <HeaderBlock key={ele.id}>{ele.name}</HeaderBlock>
         ))}
 
         <hr />
-      </div>
+      </CheckoutHeader>
 
       {cartItems.map((item) => (
         <CheckoutItem key={item.id} cartItem={item} />
       ))}
       {totalCheckout ? (
-        <div className="total">
+        <Total>
           <span>Total: ${totalCheckout}</span>
-        </div>
+        </Total>
       ) : (
         <Fragment></Fragment>
       )}
-    </div>
+    </CheckoutContainer>
   );
 };
 export default Checkout;

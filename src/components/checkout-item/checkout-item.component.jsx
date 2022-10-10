@@ -5,6 +5,7 @@ import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { faRemove } from "@fortawesome/free-solid-svg-icons";
 import { useContext } from "react";
 import { CartContext } from "../../contexts/cart.context";
+
 const CheckoutItem = ({ cartItem }) => {
   const { addQuantityToCheckout,substractQuantityToCheckout,removeProductfromCheckout } = useContext(CartContext);
   const addOneToCheckout = () => addQuantityToCheckout(cartItem);
